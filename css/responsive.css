@@ -1,0 +1,386 @@
+@media (max-width: 1699px) {
+    .main__left-sidebar {
+        width: 200px;
+    }
+    .main__mcm__right {
+        width: 160px;
+    }
+    .h3 {
+        font-size: 18px;
+    }
+    .main__mcm__inner {
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-bottom: 35px;
+    }
+    .main-menu h4 {
+        font-size: 13px;
+    }
+    .main-menu > ul > li > a {
+        gap: 10px;
+        font-size: 13px;
+    }
+    .main-menu > ul {
+        padding: 0 0px;
+        gap: 14px;
+    }
+    .main-menu > ul > li > a > .icon {
+        height: 18px;
+        width: 18px;
+    }
+    .main-submenu ul {
+        gap: 12px;
+        padding: 17px 0 0 28px;
+    }
+    .main-submenu ul li a {
+        font-size: 13px;
+        padding-left: 18px;
+    }
+    .main-menu {
+        margin: 0 0 30px;
+    }
+
+    .dash-button .arr-left {
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+    .dash-button .tc h3 {
+        font-size: 18px;
+        margin: 0 0 3px;
+    }
+    .dash-button .tc h6 {
+        font-size: 9px;
+    }
+    .dash-button {
+        gap: 12px;
+    }
+    .hdr-search {
+        width: 190px;
+        height: 42px;
+    }
+    .hdr-search .input {
+        padding: 8px 11px;
+    }
+    .hdr-search .search {
+        right: 11px;
+        font-size: 12px;
+    }
+    .main__header__right {
+        gap: 18px;
+    }
+    .main__header__right .divi {
+        height: 32px;
+    }
+    .icon__round-button {
+        height: 25px;
+        width: 25px;
+    }
+    .hdr__user > a > .avatar {
+        height: 25px;
+        width: 25px;
+    }
+    .hdr__user > a > .tc h4 {
+        font-size: 9px;
+    }
+    .hdr__user > a > .tc h3 {
+        font-size: 12px;
+        margin: 0 0 4px;
+    }
+    .hdr__user > a {
+        gap: 10px;
+    }
+    .main__header__right__right {
+        gap: 14px;
+    }
+    .main__header {
+        padding: 10px 24px 10px 0;
+    }
+
+
+    .main__game__content .h1 {
+        font-size: 35px;
+        margin: 0 0 15px;
+    }
+    .main__game__content__dt .mode {
+        width: 40px;
+        margin: 0 0 11px;
+    }
+    .main__game__content__dt h4 {
+        font-size: 20px;
+        margin: 0 0 9px;
+    }
+    .main__game__content__dt h5 .sig {
+        width: 20px;
+    }
+    .main__game__content__dt h5 {
+        font-size: 14px;
+    }
+    .main__game__content__watch h4 {
+        font-size: 20px;
+        margin: 0 0 7px;
+    }
+    .watch-ul li a {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+    }
+    .watch-ul {
+        gap: 7px;
+    }
+    .main__game .live {
+        top: 17px;
+        right: 20px;
+        font-size: 18px;
+        gap: 7px;
+    }
+    .main__game .live .dot {
+        height: 8px;
+        width: 8px;
+        display: block;
+    }
+    .main__game__content {
+        padding: 17px 35px;
+    }
+    .main__game__content .h1 .vs {
+        font-size: 22px;
+    }
+    .main__game {
+        margin: 0 0 30px;
+        height: 300px;
+    }
+
+
+    .tab-nav li a {
+        padding: 6px 0;
+        font-size: 18px;
+    }
+    .tab-nav {
+        gap: 25px;
+    }
+    .cont-xgm__title {
+        margin: 0 0 20px;
+    }
+    .game-card__wrap {
+        grid-gap: 15px 12px;
+    }
+    .live-w .dot {
+        height: 5px;
+        width: 5px;
+    }
+    .live-w {
+        height: 16px;
+        padding: 3px 5px;
+        gap: 6px;
+        font-size: 9px;
+        top: 5px;
+        left: 5px;
+    }
+    .game__view-w {
+        height: 25px;
+        padding: 3px 7px;
+        gap: 9px;
+        font-size: 9px;
+        top: 5px;
+        right: 5px;
+    }
+    .game-card__player {
+        padding: 7px;
+        gap: 7px;
+        bottom: 7px;
+        left: 7px;
+    }
+    .game-card__player__image {
+        height: 35px;
+        width: 35px;
+    }
+    .game-card__player__tc h4 {
+        font-size: 11px;
+        margin: 0 0 7px;
+    }
+    .game-card__player__tc h5 {
+        font-size: 9px;
+    }
+    .cont-xgm {
+        margin: 0 0 25px;
+    }
+    .game-card__image {
+        height: 150px;
+    }
+    .game-card__wrap-l .game-card__image {
+        height: 200px;
+    }
+    .game-card__wrap-l {
+        grid-gap: 12px;
+    }
+    .game-card__image__tc h4 {
+        font-size: 11px;
+    }
+    .game-card__image__tc {
+        padding: 9px 7px;
+    }
+    .cont-xgm__title h4 {
+        font-size: 18px;
+    }
+
+
+    .streamers__wrapper {
+        grid-gap: 15px 12px;
+    }
+    .streamer-single__tc h4 {
+        font-size: 9px;
+    }
+    .streamer-single__tc {
+        padding: 8px 7px;
+    }
+    .cont-rx__title {
+        margin: 0 0 17px;
+    }
+    .cont-rx {
+        margin: 0 0 30px;
+    }
+    .streamer-gossip__tc {
+        padding: 12px 12px;
+    }
+    .streamer-gossip__tc h4 {
+        font-size: 11px;
+        margin: 0 0 4px;
+    }
+    .streamer-gossip__tc h6 {
+        font-size: 9px;
+        margin: 0 0 5px;
+    }
+    .streamer-gossip__tc .read-more .sg {
+        width: 18px;
+    }
+    .streamer-gossip__tc .read-more {
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .footer-menu {
+        gap: 20px;
+    }
+    .main__footer {
+        padding: 11px 15px;
+    }
+
+
+
+}
+
+
+@media (max-width: 1399px) {
+ 
+}
+
+
+@media (max-width: 1199px) {
+    .main__left-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 100;
+        transform: translate(-100%,0);
+        transition: 0.3s;
+    }
+    .main__left-sidebar.active {
+        transform: translate(0%,0);
+    }
+
+    .main__header {
+        padding: 10px 5%;
+    }
+    .header__part__mobile {
+        padding: 14px 5%;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .main__mcm__inner {
+        padding: 0px 5% 20px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .game-card__wrap {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .game-card__wrap-l {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .main__game__content {
+        padding: 10px 20px;
+    }
+
+    .tab-nav li a {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .main__mcm__inner {
+        flex-wrap: wrap;
+    }
+    .main__mcm__main {
+        width: 100%;
+    }
+    .main__mcm__right {
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 575px) {
+ .header__part__mobile {
+    flex-wrap: wrap;
+ }
+ .hdr-search {
+    width: 100%;
+ }
+
+ .main__game__content .h1 {
+	font-size: 28px;
+	margin: 0 0 13px;
+    }
+    .main__game__content .h1 img {
+        max-width: 30px;
+    }
+
+    .game-card__image {
+        height: 130px;
+    }
+    .tab-nav li a {
+        font-size: 14px;
+    }
+    .game-card__wrap-l .game-card__image {
+        height: 130px;
+    }
+    .main__mcm__right {
+        max-width: 250px;
+    }
+
+    .main__footer__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    .main__game__content {
+        padding: 10px 12px;
+    }
+}
