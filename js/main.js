@@ -6,11 +6,11 @@
     $(".main__left-sidebar").addClass("active");
     $(".offcanvas-overlay").addClass("active");
   });
-  $(".main__left-sidebar a").click(function () {
-    $(".main__left-sidebar").removeClass("active");
-    $(".offcanvas-overlay").removeClass("active");
-  });
-  $(".close-offcanvas").click(function () {
+  // $(".main__left-sidebar a").click(function () {
+  //   $(".main__left-sidebar").removeClass("active");
+  //   $(".offcanvas-overlay").removeClass("active");
+  // });
+  $(".left-bar-close").click(function () {
     $(".main__left-sidebar").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });
