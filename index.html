@@ -501,11 +501,25 @@
                     </a>
                     <div class="divi"></div>
                     <div class="main__header__right__right">
-                      <a href="#" class="icon__round-button">
-                        <img src="images/Bell.svg" alt="" />
-                      </a>
-                      <div class="hdr__user">
-                        <a href="#">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="icon__round-button"
+                          data-bs-toggle="dropdown"
+                        >
+                          <img src="images/Bell.svg" alt="" />
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-in-menu">
+                            <li><a href="#">notification 1...</a></li>
+                            <li><a href="#">notification 2...</a></li>
+                            <li><a href="#">notification 3...</a></li>
+                            <li><a href="#">notification 4...</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="hdr__user user dropdown">
+                        <a href="#" data-bs-toggle="dropdown">
                           <div class="avatar">
                             <img src="images/user-avatar.png" alt="" />
                           </div>
@@ -514,6 +528,52 @@
                             <h4>Marketing Administrator</h4>
                           </div>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                          <div class="head">
+                            <span href="#" class="name">Someone Famous</span>
+                            <span href="#" class="role">Web designer</span>
+                          </div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="fas fa-user"></i>
+                                </span>
+                                <span class="text">My Profile</span>
+                              </a>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="fas fa-user-edit"></i>
+                                </span>
+                                <span class="text">Edit Profile</span>
+                              </a>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="far fa-envelope"></i>
+                                </span>
+                                <span class="text">Inbox</span>
+                              </a>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="fas fa-cog"></i>
+                                </span>
+                                <span class="text">Setting</span>
+                              </a>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="text">Help</span>
+                              </a>
+                              <a href="#">
+                                <span class="icon">
+                                  <i class="fas fa-sign-out-alt"></i>
+                                </span>
+                                <span class="text">Logout</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -529,11 +589,31 @@
                     <i class="far fa-search search"></i>
                   </a>
                   <div class="main__header__right__right">
-                    <a href="#" class="icon__round-button">
-                      <img src="images/Bell.svg" alt="" />
-                    </a>
-                    <div class="hdr__user">
-                      <a href="#">
+                    <div class="dropdown">
+                      <a
+                        href="#"
+                        class="icon__round-button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <img src="images/Bell.svg" alt="" />
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-end" style="">
+                        <ul class="dropdown-in-menu">
+                          <li><a href="#">notification 1...</a></li>
+                          <li><a href="#">notification 2...</a></li>
+                          <li><a href="#">notification 3...</a></li>
+                          <li><a href="#">notification 4...</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="hdr__user user dropdown">
+                      <a
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        class=""
+                      >
                         <div class="avatar">
                           <img src="images/user-avatar.png" alt="" />
                         </div>
@@ -542,6 +622,52 @@
                           <h4>Marketing Administrator</h4>
                         </div>
                       </a>
+                      <div class="dropdown-menu dropdown-menu-end" style="">
+                        <div class="head">
+                          <span href="#" class="name">Someone Famous</span>
+                          <span href="#" class="role">Web designer</span>
+                        </div>
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="fas fa-user"></i>
+                              </span>
+                              <span class="text">My Profile</span>
+                            </a>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="fas fa-user-edit"></i>
+                              </span>
+                              <span class="text">Edit Profile</span>
+                            </a>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="far fa-envelope"></i>
+                              </span>
+                              <span class="text">Inbox</span>
+                            </a>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="fas fa-cog"></i>
+                              </span>
+                              <span class="text">Setting</span>
+                            </a>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="far fa-question-circle"></i>
+                              </span>
+                              <span class="text">Help</span>
+                            </a>
+                            <a href="#">
+                              <span class="icon">
+                                <i class="fas fa-sign-out-alt"></i>
+                              </span>
+                              <span class="text">Logout</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -606,17 +732,31 @@
                     <!-- cont-x -->
                     <div class="cont-xgm">
                       <div class="cont-xgm__title">
-                        <ul class="tab-nav">
-                          <li><a class="active" href="#">Top Streamers</a></li>
-                          <li><a href="#">Hot Gameplays</a></li>
-                          <li><a href="#">Tournament highlights</a></li>
-                          <li><a href="#">Trending Videos</a></li>
+                        <ul class="tab-nav game-isotope-nav">
+                          <li>
+                            <a data-filter=".game-a" class="active" href="#"
+                              >Top Streamers</a
+                            >
+                          </li>
+                          <li>
+                            <a data-filter=".game-b" href="#">Hot Gameplays</a>
+                          </li>
+                          <li>
+                            <a data-filter=".game-c" href="#"
+                              >Tournament highlights</a
+                            >
+                          </li>
+                          <li>
+                            <a data-filter=".game-d" href="#"
+                              >Trending Videos</a
+                            >
+                          </li>
                         </ul>
                       </div>
                       <div class="cont-xgm__main">
-                        <div class="game-card__wrap">
+                        <div class="game-card__wrap game__card__wrap-isotope">
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-a">
                             <div
                               class="game-card__image"
                               style="
@@ -648,7 +788,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-a game-b game-c">
                             <div
                               class="game-card__image"
                               style="
@@ -677,7 +817,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-b game-c">
                             <div
                               class="game-card__image"
                               style="
@@ -706,7 +846,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-c game-a">
                             <div
                               class="game-card__image"
                               style="
@@ -735,7 +875,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-a">
                             <div
                               class="game-card__image"
                               style="
@@ -764,7 +904,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-b game-a">
                             <div
                               class="game-card__image"
                               style="
@@ -793,7 +933,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-c">
                             <div
                               class="game-card__image"
                               style="
@@ -825,7 +965,7 @@
                           </div>
                           <!-- game-card-end -->
                           <!-- game-card -->
-                          <div class="game-card">
+                          <div class="game-card game-d">
                             <div
                               class="game-card__image"
                               style="
@@ -1164,6 +1304,9 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/main.js"></script>
     <!-- End All Js -->
   </body>

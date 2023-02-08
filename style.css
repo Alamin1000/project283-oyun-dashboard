@@ -636,11 +636,16 @@ p:last-child{
 }
 
 .game-card__wrap {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 25px 22px;
+  --item: 4;
+  --gap: 24px;
+  --row-gap: var(--gap);
+  margin: 0 calc(var(--gap) * -0.5) calc(var(--row-gap) * -1 );
+  width: calc(100% + (var(--gap)));
 }
 .game-card {
+  --col: 1;
+  margin: 0  calc(var(--gap) * 0.5) var(--row-gap);
+  width: calc(((100% / var(--item)) * var(--col)) - var(--gap));
   position: relative;
 }
 .game-card__image {

@@ -23,6 +23,18 @@
       $(".offcanvas-overlay").removeClass("active");
     }
   });
+
+  // init Isotope
+  var $grid = $(".game__card__wrap-isotope").isotope({
+    // options
+    layoutMode: "fitRows",
+  });
+  // filter items on button click
+  $(".game-isotope-nav").on("click", "a", function (event) {
+    event.preventDefault();
+    var filterValue = $(this).attr("data-filter");
+    $grid.isotope({ filter: filterValue });
+  });
 })(jQuery);
 
 $(document).ready(function () {
